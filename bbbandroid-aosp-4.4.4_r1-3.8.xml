@@ -24,7 +24,8 @@
   <project name="bbbandroid-external-i2c_tools" path="external/i2c-tools" revision="master" remote="bbbandroid" />
 
   <!-- AOSP repos (android-4.4.4_r1.0.1 branch) -->
-  <remote  name="aosp"
+  <remote revision="master"
+           name="aosp"
            fetch="https://android.googlesource.com/" />
   <default remote="aosp"
            sync-j="4" />
